@@ -5,10 +5,10 @@ namespace RemoteHeal
 {
     public class Plugin : Plugin<Config>
     {
-        public override string Name { get; } = "RemoteHeal";
-        public override string Author { get; } = "TobisuchtetXD";
-        public override Version Version { get; } = new Version(1, 0, 0);
-        public override Version RequiredExiledVersion { get; } = new Version(8, 8, 0);
+        public override string Name => "RemoteHeal";
+        public override string Author => "TobisuchtetXD";
+        public override Version Version => new Version(1, 0, 0);
+        public override Version RequiredExiledVersion => new Version(8, 8, 0);
 
         public static Plugin Instance;
 
