@@ -1,15 +1,10 @@
 using System;
 using System.Linq;
 using CommandSystem;
-using Exiled.API.Extensions;
 using Exiled.API.Features;
-using Exiled.API.Features.Items;
-using InventorySystem.Items;
 using InventorySystem.Items.Usables;
 using PlayerRoles;
-using PlayerStatsSystem;
 using UnityEngine;
-using Consumable = Exiled.API.Features.Items.Consumable;
 
 namespace RemoteHeal
 {
